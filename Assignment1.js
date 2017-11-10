@@ -5,9 +5,8 @@ function Car(make, model, year) {
     this.year = year;
 
     this.displayProperties = function() {
-        console.log("Make : " + this.make);
-        console.log("Model : " + this.model);
-        console.log("Year : " + this.year);
+        console.log("Make: " + this.make + ", " + "Model: " + this.model + ", " + " Year: " + this.year);
+        alert("Make: " + this.make + ", " + " Model: " + this.model + ", " + " Year: " + this.year);
     };
 }
 
